@@ -242,17 +242,7 @@ def handle_attack(message):
         else:
             response = "Usage :- /attack <target> <port> <time>"  # Updated command syntax
     else:
-        response = "🔥 main account safe  DDoS [Server Freeze Bot] 🔥
-💯 No Ban | 100% Safe 💯
-🕒 Plans Available:
-1 Day: ₹49 🕐
-3 Days: ₹149 🕒
-7 Days: ₹349 🗓️
-
-____
-
-
-DM : @NEONxCHEATZ3"
+        response = " ❌ You Are Not Authorized To Use This Command "
 
     bot.reply_to(message, response)
 
